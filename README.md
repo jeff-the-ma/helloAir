@@ -1,3 +1,3 @@
-# Hello World 
+# Hello World
 
-Beep Borp I'm a robot.
+Beep Borp I'm a robot
