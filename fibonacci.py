@@ -16,4 +16,5 @@ try:
         next(g)
 
 except Exception as e:
-    raise
+    raise Exception('Exception Occurred when {}'.format(e))
+
