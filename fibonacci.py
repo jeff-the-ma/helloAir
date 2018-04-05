@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 #! usr/bin/env python
-#github.py - A test to see how to Github on Atom
-
-import os, re
 # Fibonacci.py - A quick introduction to using generators **WOW**
+
 from random import randint as r_Int
 
 def fib():
@@ -12,6 +9,7 @@ def fib():
         yield a
         a,b = b, a + b
 
+** BEGIN CODE **
 try:
     g = fib()
     for it in range(15):
@@ -19,6 +17,4 @@ try:
 
 except Exception as e:
     raise Exception('Exception Occurred when {}'.format(e))
-=======
 
->>>>>>> cb5a3dd44856ec16f5e6d31cbd6b6f79f8380a21
